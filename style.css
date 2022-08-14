@@ -1,0 +1,289 @@
+*,*::before,*::after{
+   box-sizing: inherit;
+}
+body {
+   
+    font-family: 'Mulish', sans-serif; 
+    box-sizing: border-box;
+ } 
+ 
+header {
+    display: flex;
+ position: fixed;
+top: 0;
+width: 100%;
+height: 10%;
+background: rgba(0, 0, 0, 0.642);
+ 
+}
+.container-1{
+   width: 100%;
+   max-width: 1250px;
+   margin: auto;
+ }
+.nav-c{
+   background-color: black;
+ 
+  }
+ 
+.logo{
+margin-top:1.55em;
+margin-left: 0.2em;
+color: rgb(222, 229, 229);
+}
+.img{
+ margin-top:1em;
+ margin-left: 0.5em;
+}
+ .container{
+    padding:0;
+ }
+nav ul{
+    margin: 0;
+    padding: 0;
+ }
+
+nav li{
+     display: inline-block;
+   margin-top: 2em;
+   margin-left: 7em;
+    
+   
+ 
+}
+ nav a {
+    color: white;
+    text-decoration: none;
+    font-size:1.2 rem;
+    opacity: 1;
+    
+ }
+  
+ ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+ }
+ ul li:hover ul {
+    display: block;
+ }
+ ul li ul li{
+    width:180px;
+    border-radius: 10px;
+ }
+ ul li ul li a{
+  padding: 8px 14px; 
+  color: black;
+ }
+ ul li ul li a:hover{
+    background-color:bisque;
+    padding: 12px 14px;
+     
+ }
+  
+ .c1{
+    display:flex;
+    margin-left:12em;
+ }
+ .cat{
+     margin-top:1em;
+  position:relative;
+ float: right;
+ }
+ .git{
+    color: white;
+    text-decoration: none;
+    font-size:1.2 rem;
+    opacity: 1;
+    margin-top:2em;
+ }
+ 
+  .welcom-text{
+    color: whitesmoke  ;
+    position: relative;
+    display: flex;
+     margin-top: 3em;
+margin-left: 2em; 
+font-size: 60;
+font-family:'Mulish', sans-serif;
+  }
+  .video{
+margin-top: 7em;
+   margin-right: 2em;
+ 
+  }
+  .main{
+    display: flex;
+  }
+  
+  .c2{
+    color:hsla(0,0%,100%,0.7) ;
+    font-size:18px;
+    margin-left: 7em;
+     margin-right:10em;
+     font-weight: lighter;
+  }
+  .bt1{
+    margin-top:1em;
+    margin-left: 6em;
+    border-radius:25px;
+    background-color:#08c;
+    color: azure;
+    border: 2px solid rgb(8, 38, 50);
+    font-size: larger;
+    padding:12px 28px;
+
+  }
+  .join{
+    text-decoration: none;
+    color: azure;
+  }
+  .bt2{
+    margin-top:2em;
+    margin-left: 6em;
+    margin-bottom: 9em;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.557);
+    color: azure;
+    border: 2px solid rgba(0, 10, 13, 0.524);
+    font-size: larger;
+    padding:12px 40px
+
+  }
+  .bt1:hover{
+    color: beige;
+  }
+.button :hover{
+    color: rgb(101, 96, 90);
+}
+  .main-page .discription{
+   text-align: center;
+  }
+  .networks{
+   display: flex;
+   justify-content: space-between;
+  }
+   .main-page .networks .stat {
+      width: 360px;
+      height: 130px;
+      background-color: var(--icon_light_secondary);
+      padding: 15px;
+      border-radius: 15px;
+      position: relative;
+      overflow: hidden;
+    }
+   .main-page .networks .accounts-info {
+      width: 360px;
+      height: 130px;
+      background-color: var(--icon_light_secondary);
+      padding: 8px;
+      border-radius: 15px;
+       position: relative;
+       overflow: hidden;
+   }
+   .main-page .networks .validators-info {
+      width: 360px;
+      height: 130px;
+      background-color: var(--icon_light_secondary);
+      padding: 8px;
+      border-radius: 15px;
+      position: relative;
+      overflow: hidden;
+   }
+   .main-page .networks .t-number{
+      font-size: 32px;
+      font-weight:550;
+      
+   }
+   .main-page .networks .a-number{
+      font-size: 32px;
+      font-weight:550;
+      
+   }
+   .main-page .networks .v-number{
+      font-size: 32px;
+      font-weight:550;
+      
+   }
+   .main-page .networks .Trasactions {
+      padding-bottom: 16;
+      font-size: 20px;
+   }
+   .main-page .networks .accounts {
+      padding-bottom: 16;
+      font-size: 20px;
+   }
+   .main-page .networks .validators {
+      padding-bottom: 16;
+      font-size: 20px;
+   }
+   .main-page .networks .stat img{
+      position: absolute;
+      transform:translate(210%,-75%);
+       opacity: 0.04;
+   }
+   .main-page .networks .accounts-info img{
+      position: absolute;
+      transform: translate(26%,-50%);
+      right: 0;
+      top: 50%;
+      opacity: 0.04;
+   }
+   .main-page .networks .validators-info img{
+      position: absolute;
+      transform: translate(26%,-50%);
+      right: 0;
+      top: 50%;
+      opacity: 0.04;
+   }
+.ccoin {
+   background-color: var(--icon_light_secondary);
+   display: flex;
+   border-radius: 50px;
+   justify-content: space-between;
+}
+.pcoin{
+   color: var(--text_light_secondary);
+}
+.coin{
+   width: 100%;
+   max-width: 1250px;
+   margin: auto;
+   padding-top:8em;}
+    
+ .coin .ccoin .coinbuttons{
+   text-decoration: none;
+   color: var(--button_dark_primary);
+   border-radius: 50px;
+ }
+ .table{
+   width: 100%;
+   max-width: 1250px;
+   margin: auto;
+ }
+ .table .table-data{
+   border-style:ridge;
+   border-color:var(--icon_light_secondary);
+   border-radius: 12px;
+    
+ }
+ .table .table-data .first-row{
+   display: flex;
+ }
+.table .table-data .empty{
+   width: 266px;
+   height: 106px;
+   position: relative;
+}
+.table .table-data .ton-icon{
+   position:relative;
+   
+}
+ 
+ 
+
+
+  
+  
