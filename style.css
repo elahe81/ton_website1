@@ -18,7 +18,7 @@ background: rgba(0, 0, 0, 0.642);
 }
 .container-1{
    width: 100%;
-   max-width: 1250px;
+   max-width: 1700px;
    margin: auto;
  }
 .nav-c{
@@ -65,6 +65,10 @@ nav li{
     background-color: #fff;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
+ }
+ nav ul li ul li{
+   display: block;
+    
  }
  ul li:hover ul {
     display: block;
@@ -161,6 +165,16 @@ margin-top: 7em;
   .main-page .discription{
    text-align: center;
   }
+  .dull-p{
+     
+   font-size: 16px;
+  
+  }
+  .massadoption{
+   font-size: 56px;
+   padding-top: 20px;
+   align-content: center;
+  }
   .networks{
    display: flex;
    justify-content: space-between;
@@ -173,6 +187,7 @@ margin-top: 7em;
       border-radius: 15px;
       position: relative;
       overflow: hidden;
+      left:5em
     }
    .main-page .networks .accounts-info {
       width: 360px;
@@ -191,6 +206,7 @@ margin-top: 7em;
       border-radius: 15px;
       position: relative;
       overflow: hidden;
+      right: 5em;
    }
    .main-page .networks .t-number{
       font-size: 32px;
@@ -253,10 +269,8 @@ margin-top: 7em;
    margin: auto;
    padding-top:8em;}
     
- .coin .ccoin .coinbuttons{
+ .coinc{
    text-decoration: none;
-   color: var(--button_dark_primary);
-   border-radius: 50px;
  }
  .table{
    width: 100%;
